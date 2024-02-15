@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body
 {
     background-color: #080808;
@@ -109,14 +113,19 @@ nav ul li a:hover::after{
     color: #fff;
 }
 
+.about-me-des {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
 .tab-title {
     display: flex;
     margin: 20px 0 40px;
 }
 
 .tab-links {
-    margin-right: 50px;
-    font-size: 18px;
+    margin-right: 40px;
+    font-size: 26px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -144,7 +153,7 @@ nav ul li a:hover::after{
 
 .tab-contents ul li span {
     color: #b54769;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tab-contents {
@@ -411,5 +420,40 @@ nav .fa-solid{
         top: 25px;
         left: 25px;
         cursor: pointer;
+    }
+
+    .sub-title {
+        font-size: 40px;
+    }
+
+    .about-col-1,.about-col-2 {
+        flex-basis: 100%;
+    }
+
+    .about-col-1 {
+        margin-bottom: 30px;
+    }
+
+    .about-col-2 {
+        font-size: 16px;
+    }
+
+    .tab-links {
+        font-size: 18px;
+    }
+
+    .contact-left,.contact-right{
+        flex: 100%;
+    }
+
+    .copyright {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .btn.btn2{
+        display: inline-block;
+        font-size: 16px;
+        padding: 15px;
     }
 }
